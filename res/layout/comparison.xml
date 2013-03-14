@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+    	android:baselineAligned="false"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+	    <View
+    	    android:id="@+id/comparisonBox1"
+	        android:layout_width="80dp"
+    	    android:layout_height="80dp"
+        	android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox2"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox3"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_margin="12dp"
+	        android:paddingRight="50dp"
+	        android:background="@drawable/white_border" />
+	    
+	    </LinearLayout>
+	    
+    <LinearLayout
+    	android:baselineAligned="false"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+	    <View
+    	    android:id="@+id/comparisonBox4"
+	        android:layout_width="80dp"
+    	    android:layout_height="80dp"
+        	android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox5"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox6"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_margin="12dp"
+	        android:paddingRight="50dp"
+	        android:background="@drawable/white_border" />
+	    
+	    </LinearLayout>    
+    
+    <LinearLayout
+    	android:baselineAligned="false"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+	    <View
+    	    android:id="@+id/comparisonBox7"
+	        android:layout_width="80dp"
+    	    android:layout_height="80dp"
+        	android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox8"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox9"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_margin="12dp"
+	        android:paddingRight="50dp"
+	        android:background="@drawable/white_border" />
+	    
+	    </LinearLayout>
+	    
+    <LinearLayout
+    	android:baselineAligned="false"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+	    <View
+    	    android:id="@+id/comparisonBox10"
+	        android:layout_width="80dp"
+    	    android:layout_height="80dp"
+        	android:layout_margin="12dp"
+        	android:layout_marginLeft="15dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox11"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_margin="12dp"
+	        android:background="@drawable/white_border" />
+
+	    <View
+	        android:id="@+id/comparisonBox12"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_marginTop="15dp"
+	        android:layout_margin="12dp"
+	        android:paddingRight="50dp"
+	        android:background="@drawable/white_border" />
+	    
+	    </LinearLayout>
+    
+</LinearLayout>

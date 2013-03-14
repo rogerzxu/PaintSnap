@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">PaintSnap</string>
+    <string name="cannot">This cannot be done.  You fail.</string>
+    <string name="album_name">CameraSample</string>
+    <string name="processingText">Processing&#8230;</string>
+    <string name="loadingText">Loading&#8230;</string>
+
+</resources>

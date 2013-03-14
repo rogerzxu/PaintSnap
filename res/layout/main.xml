@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PaintSnap" />
+
+    <Button
+        android:id="@+id/btnIntend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test" />-->
+
+    <Button
+        android:id="@+id/btnIntendS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_border"
+        android:padding="15dp"
+        android:text="Take Photo"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+        <!--android:text="Test" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"-->
+
+	<Button
+        android:id="@+id/Favorites"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_border"
+        android:padding="15dp"
+        android:text="Favorites"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+	
+	<!--<Button
+        android:id="@+id/customcolor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_border"
+        android:padding="15dp"
+        android:text="Custom Color"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />-->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="256dp"
+        android:layout_height="192dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <Button
+	        android:id="@+id/color1"
+	        android:layout_width="50dp"
+    	    android:layout_height="50dp"
+    	    android:layout_margin="7dp"
+	        android:background="@drawable/button_border"
+    	    android:padding="10dp"
+       	    android:textColor="#FFFFFF"/>
+       	    
+       	<Button
+	        android:id="@+id/color2"
+	        android:layout_width="50dp"
+    	    android:layout_height="50dp"
+    	    android:layout_margin="7dp"
+	        android:background="@drawable/button_border"
+    	    android:padding="10dp"
+       	    android:textColor="#FFFFFF"/>
+       	     
+       	<Button
+	        android:id="@+id/color3"
+	        android:layout_width="50dp"
+    	    android:layout_height="50dp"
+    	    android:layout_margin="7dp"
+	        android:background="@drawable/button_border"
+    	    android:padding="10dp"
+       	    android:textColor="#FFFFFF"/>
+       	      
+       	<Button
+	        android:id="@+id/color4"
+	        android:layout_width="50dp"
+    	    android:layout_height="50dp"
+    	    android:layout_margin="7dp"
+	        android:background="@drawable/button_border"
+    	    android:padding="10dp"
+       	    android:textColor="#FFFFFF"/>
+       	       
+       	<Button
+	        android:id="@+id/color5"
+	        android:layout_width="50dp"
+    	    android:layout_height="50dp"
+    	    android:layout_margin="7dp"
+	        android:background="@drawable/button_border"
+    	    android:padding="10dp"
+       	    android:textColor="#FFFFFF"/>
+    	    
+        <!--<View
+            android:id="@+id/color1"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/color2"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/color3"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/color4"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/color5"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />-->
+    </LinearLayout>
+
+</LinearLayout>

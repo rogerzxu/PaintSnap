@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/photo"
+        android:contentDescription="photo"
+        android:background="#FFFFFF"
+        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/majorcolorstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Major Colors:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/color1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/majorcolorstext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/white_border" />
+
+    <Button
+        android:id="@+id/color2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/photo"
+        android:layout_alignTop="@+id/color1"
+        android:background="@drawable/white_border" />
+
+    <Button
+        android:id="@+id/color3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/photo"
+        android:layout_alignTop="@+id/color1"
+        android:background="@drawable/white_border" />
+    
+</RelativeLayout>

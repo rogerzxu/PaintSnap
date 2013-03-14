@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/savedcolorBox"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/white_border" />
+
+    <TextView
+        android:id="@+id/savedcolorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/savedcolorBox"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/savedcolorBox"
+        android:text="Some Color"
+        android:textSize="24sp" />
+    
+    <LinearLayout
+    	android:baselineAligned="false"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="100dp">
+        
+        <TextView
+            android:layout_height="30dp" 
+            android:layout_width="wrap_content" 
+            android:layout_weight="1.0"
+            android:paddingLeft="10.0dip"
+            android:textSize="20dp"
+            android:text="RGB: (0, 0, 0)" 
+            android:id="@+id/savedrgbtext" />
+                
+        <TextView
+            android:layout_height="30dp" 
+            android:layout_width="wrap_content" 
+            android:layout_weight="1.0"
+            android:paddingLeft="10.0dip"
+            android:textSize="20dp"
+            android:text="Hex: #000000" 
+            android:id="@+id/savedhextext" />
+                        
+        <TextView
+            android:layout_height="30dp" 
+            android:layout_width="wrap_content" 
+            android:layout_weight="1.0"
+            android:paddingLeft="10.0dip"
+            android:textSize="20dp"
+            android:text="HSV: 0°, 0°, 0°" 
+            android:id="@+id/savedhsvtext" />
+
+        <TextView
+            android:id="@+id/savedanalogouscolorstext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1.0"
+            android:paddingLeft="10.0dip"
+            android:text="Analogous Colors:"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/savedanalogcolor1"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/white_border" />
+
+            <View
+                android:id="@+id/savedanalogcolor2"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/white_border" />
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/savedcomplementarycolortext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1.0"
+            android:paddingLeft="10.0dip"
+            android:text="Complementary Color:"
+            android:textSize="20dp" />        
+
+            <View
+                android:id="@+id/savedcomplementarycolor"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/white_border" />        
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/savedstar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/savedcolorText"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/savedcolorText"
+        android:background="@drawable/favoritedstar" />
+    
+ </RelativeLayout>
